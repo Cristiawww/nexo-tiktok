@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "NEXO · Videos de perfil",
+  "version": "2.0.0",
+  "description": "Lee hasta diez publicaciones públicas visibles de un perfil de TikTok desde Chrome, a petición del usuario.",
+  "permissions": ["activeTab", "scripting", "storage", "tabs"],
+  "host_permissions": ["https://www.tiktok.com/*", "https://tiktok.com/*", "https://m.tiktok.com/*"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_popup": "popup.html", "default_title": "NEXO: analizar videos"},
+  "minimum_chrome_version": "110"
+}

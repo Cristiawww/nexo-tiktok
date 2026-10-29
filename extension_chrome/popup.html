@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEXO</title><style>
+:root{color-scheme:light}*{box-sizing:border-box}body{margin:0;width:356px;background:#F8F9FD;color:#172039;font:14px/1.4 system-ui,-apple-system,Segoe UI,sans-serif}header{background:#101830;color:white;padding:20px 22px;display:flex;align-items:baseline;justify-content:space-between}header b{font-size:25px;letter-spacing:-1.5px}header em{font-style:normal;color:#F48F75}header small{font-size:10px;color:#B8C3E0;letter-spacing:1.2px}main{padding:19px 20px 20px}.row{display:flex;align-items:center;justify-content:space-between}.muted{color:#67728A;font-size:12px;margin:6px 0 18px}button{display:block;width:100%;padding:11px 13px;margin:9px 0;border-radius:9px;border:1px solid #C8CDDF;background:white;color:#222F50;font-size:13px;font-weight:700;cursor:pointer}button.primary{background:#6254E9;border-color:#6254E9;color:white;font-size:14px}button:disabled{opacity:.45;cursor:not-allowed}.stat{padding:13px;background:white;border:1px solid #E4E7EF;border-radius:10px;margin:12px 0}.stat strong{font-size:16px}#status{padding:11px 12px;background:#F0F0FF;color:#392B86;border-radius:8px;margin:12px 0;min-height:36px;font-size:12px;white-space:pre-line}progress{width:100%;accent-color:#6254E9;height:11px}.hint{font-size:11px;color:#68758B;margin-top:13px}.lightbtn{background:transparent;border:0;color:#6A748B;font-size:12px;padding:4px;margin-top:7px}.sub{font-size:11px;color:#6B7790}
+</style></head><body><header><b>nexo<em>.</em></b><small>CREATOR INTELLIGENCE</small></header><main>
+<div class="row"><strong>Captura de publicaciones</strong><span id="count">0 / 5</span></div>
+<p class="muted">Abre un perfil público de TikTok en Chrome.</p>
+<button id="start" class="primary">Analizar hasta 10 videos</button>
+<div class="row sub"><span>Progreso</span><span id="progress-label"></span></div>
+<progress id="progress" max="1" value="0"></progress>
+<div id="status" role="status">Sin consultas en curso.</div>
+<button id="stop" disabled>Detener</button>
+<div class="stat"><strong id="summary">0 publicaciones · 0 con vistas y likes</strong></div>
+<button id="export">Exportar para NEXO</button>
+<button id="clear" class="lightbtn">Vaciar cuentas</button>
+<div class="hint">Solo recopila datos públicos que Chrome permita mostrar. La cuenta no se comparte y las cookies no se exportan.</div>
+</main><script src="popup.js"></script></body></html>

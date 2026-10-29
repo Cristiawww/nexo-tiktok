@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+*.log
+.DS_Store
+*.zip
+resultados/
+.session/
+*.har
+.nexo_session/
+*.sqlite
+*.db
+playwright/.auth/
+.nexo_session/
+nexo_captura_chrome.json
